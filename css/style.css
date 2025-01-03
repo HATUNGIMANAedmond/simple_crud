@@ -1,0 +1,204 @@
+.card{
+    background-color: rgb(192, 196, 193);
+    margin: 10vw;
+    height: 15vw;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    padding: 5px;
+}
+
+.button{
+    text-align: center;
+}
+.button a{
+    background-color: rgb(235, 45, 127);
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button a:hover{
+    background-color: rgb(144, 14, 107);
+    color: rgb(235, 200, 200);
+}
+.footer-link{
+    margin-top: 20px;
+    padding: 20px;
+    float: right;
+    font-size: 10px;
+    text-decoration: none;
+    color: blue;
+}
+/* -------------------------------Begin style form------------------------------------------------ */
+.panel{
+    background-color: #f3f0f0;
+    width: 50vw;
+    margin-left: 25vw;
+    height: 40vw;
+}
+
+
+.card-header{
+    background-color: #f70897;
+    border-radius: 0px 0px 20px 20px;
+    color: #ccc;
+}
+.card-contenu{
+    margin: 40px;
+    margin-bottom: 30px;
+}
+
+    .form-row {
+        margin-bottom: 10px;
+    }
+
+    .form-row label,
+    .form-row input,
+    .form-row select
+     {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .form-row label {
+        width: 100px;
+    }
+
+    .form-row input,
+    .form-row select,
+    .input-search {
+        width: 30vw;
+        height: 35px;
+    }
+    .form-row input,select,.input-search{
+        /* border: none; */
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+    }
+    .form-row select {
+        width: 30.5vw;
+        height: 35px;
+    }
+    .form-row input:focus,select:focus,.input-search:focus {
+        border: 2px solid rgb(230, 0, 142);
+        outline: none; /* Pour supprimer la bordure par défaut du navigateur */
+    }
+
+    .form-button{
+        text-align: center;
+        /* width: 10px; */
+    }
+    .form-button button{
+        width: 300px;
+        height: 35px;
+        background-color: #f70897;
+        border: none;
+        border-radius: 3px;
+        color: #ccc;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .header-liste{
+        display: flex;
+        justify-content: space-between;
+    }
+    .input-search {
+        width: 20vw;
+        height: 30px;
+    }
+    .button-search{
+        width: 100px;
+        height: 35px;
+        background-color: #f70897;
+        border: none;
+        border-radius: 3px;
+        color: #ccc;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .form-error{
+        margin-left: 110px;
+        color:red;
+    }
+/* -----------------------end style form------------------------------------------------------------------ */
+
+
+    /* -----------------------------Begin style table---------------------------------------------------------- */
+
+    
+    .my-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .my-table th,
+    .my-table td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .my-table th {
+        background-color: #f70897;
+        font-weight: bold;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .my-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .my-table tr:hover {
+        background-color: #ff84d0;
+        cursor:grabbing;
+    }
+
+
+    /*------------------------------end style table---------------------------------------------------------------------------- */
+
+    /* -----------------begin style button on the table------------------------------- */
+.btn-table{
+    background-color: #f70897;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    /* ----------------------------end style button on the table------------------------------------------------------ */
+
+
+
+    /* ----------------------------Begin style action button------------------------------------------------------ */
+
+    .btn-action{
+        text-decoration: none;
+    }
+
+    /* ----------------------------end style action button------------------------------------------------------ */
+
+
+
+/* pagination */
+
+.pagination{
+    margin: 20px;
+    float: right;
+    text-decoration: none;
+}
+.item-pagination{
+    margin: 20px;
+    float: right;
+    
+}
+
+
+
+/* end  */
